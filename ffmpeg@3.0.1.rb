@@ -22,7 +22,7 @@ class FfmpegAT301 < Formula
     depends_on "fontconfig"
     depends_on "freetype"
     depends_on "frei0r"
-    depends_on "lame@3.99.5"
+    depends_on "shlomiuziel/lame/lame@3.99.5"
     depends_on "libass"
     depends_on "libvorbis"
     depends_on "libvpx"
