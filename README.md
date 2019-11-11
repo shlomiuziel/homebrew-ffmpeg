@@ -14,3 +14,9 @@ brew link --force ffmpeg@3.0.1
 ```
 
 #### (This step is required because it's a keg-only formula.)
+
+#### Note: On macOS OpenCL should be provided, however in linux you can install the OpenCL prerequisites independeptly: ####
+```bash
+sudo apt update
+sudo apt install ocl-icd-opencl-dev
+```
