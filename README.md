@@ -12,8 +12,7 @@ Once ffmpeg was built successfully, you can link it as the default ffmpeg system
 ```bash
 brew link --force ffmpeg@3.0.1
 ```
-
-#### (This step is required because it's a keg-only formula.)
+_This step is required because it's a keg-only formula._
 
 #### Note: On macOS OpenCL should be provided, however in linux you can install the OpenCL prerequisites independeptly: ####
 ```bash
